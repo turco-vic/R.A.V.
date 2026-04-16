@@ -1,65 +1,61 @@
-# 🏕️ R.A.V. — Site Oficial
+# R.A.V. — Site Oficial
 
-Site institucional do **Retiro R.A.V.**, desenvolvido para centralizar as informações, facilitar a comunicação com o público e fortalecer a presença digital do retiro espiritual da comunidade da igreja.
+Site institucional do Retiro R.A.V., desenvolvido para centralizar informações e fortalecer a presença digital do retiro espiritual da Comunidade Luz da Essência.
 
----
+## Sobre o projeto
 
-## 📋 Sobre o Projeto
+O R.A.V. existe desde 2007 na Paróquia Sant'Ana de Sousas, em Campinas/SP, promovendo retiros espirituais para jovens. Até então o Instagram era o único canal de divulgação — este site surge como espaço digital próprio, formal e organizado.
 
-O R.A.V. existe há anos na comunidade da igreja, promovendo encontros e retiros espirituais. Até então, o Instagram era o único canal de divulgação — o que limitava o alcance, a credibilidade e a organização das informações.
+## Páginas
 
-Este site surge como solução para criar um espaço digital próprio, formal e organizado, que represente o retiro institucionalmente e facilite o acesso a todas as informações relevantes.
+- **Home** — hero, carrossel de edições e pilares
+- **Sobre** — história, missão e público-alvo
+- **Contato** — informações de contato e formulário
+- **Retiro** — página individual de cada edição (em desenvolvimento)
 
----
+## Stack
 
-## 🎯 Objetivo
+- [Vue 3](https://vuejs.org/) + Composition API
+- [Vite](https://vitejs.dev/)
+- [Vue Router 4](https://router.vuejs.org/)
 
-Criar um canal oficial que:
+## Estrutura
 
-- Centralize informações sobre datas, inscrições e histórico dos retiros
-- Ofereça uma presença digital séria e profissional ao R.A.V.
-- Facilite o contato de interessados em participar
-- Seja acessível tanto à comunidade interna quanto ao público externo
-
----
-
-## 👥 Público-Alvo
-
-| Perfil | Necessidade |
-|---|---|
-| Membros da comunidade | Informações sobre datas e inscrições |
-| Jovens e adolescentes | Participar das atividades do retiro |
-| Público externo e visitantes | Conhecer o R.A.V. |
-| Líderes e organizadores | Divulgar e gerir informações |
-| Pais e responsáveis | Obter informações seguras sobre o retiro para seus filhos |
-| Qualquer interessado | Encontrar o retiro por meio de buscas na internet |
-
----
-
-## 🛠️ Tecnologias
-
-> *(Atualize esta seção conforme as tecnologias escolhidas para o desenvolvimento)*
-
----
-
-## 📁 Estrutura do Projeto
 ```
-rav-site/
-├── public/
-├── src/
-│   ├── components/
-│   ├── pages/
-│   └── assets/
-├── README.md
-└── ...
+src/
+├── components/
+│   ├── Navbar.vue
+│   └── Footer.vue
+├── pages/
+│   ├── Home.vue
+│   ├── Sobre.vue
+│   ├── Contato.vue
+│   └── Retiro.vue
+├── data/
+│   └── editions.js
+├── App.vue
+├── main.js
+└── style.css
 ```
 
----
+## Rotas
 
-## 📬 Contato
+| Rota | Página |
+|------|--------|
+| `/` | Home |
+| `/sobre` | Sobre o R.A.V. |
+| `/contato` | Contato |
+| `/retiros/:id` | Edição específica |
 
-Para saber mais sobre o R.A.V., entre em contato através do formulário no site ou pelas nossas redes sociais.
+## Instalação
 
----
+```bash
+npm install
+npm run dev
+```
 
-> *"Promovendo encontros e retiros espirituais para a comunidade."*
+## Comunidade
+
+Organizado pela **Comunidade Luz da Essência** na Paróquia Sant'Ana de Sousas, Campinas/SP.
+
+> "Vem trilhar o caminho para a liberdade."
