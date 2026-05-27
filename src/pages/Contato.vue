@@ -70,7 +70,7 @@ function send() {
 const contacts = [
     { label: 'Instagram', value: '@ravluzdaessencia', href: 'https://instagram.com/ravluzdaessencia', icon: true },
     { label: 'Local', value: "Paróquia Sant'Ana de Sousas", href: 'https://maps.google.com/?q=Paróquia+Sant+Ana+de+Sousas+Campinas' },
-    { label: 'Comunidade', value: 'Luz da Essência', href: 'https://www.instagram.com/comluzdaessencia' },
+    { label: 'Comunidade', value: 'Católica de Aliança Luz da Essência', href: 'https://www.instagram.com/comluzdaessencia' },
     { label: 'Cidade', value: 'Campinas/SP', href: '#' },
 ]
 </script>

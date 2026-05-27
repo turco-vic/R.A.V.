@@ -4,7 +4,7 @@
     <div class="content">
       <p class="section-label">Quem somos</p>
       <h1 class="section-title">Sobre o <span>R.A.V.</span></h1>
-      <p class="sub">Retiro de Aventura e Vida — uma experiência espiritual para a juventude.</p>
+      <p class="sub">R.A.V — uma experiência espiritual para a juventude.</p>
     </div>
   </section>
 

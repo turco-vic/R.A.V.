@@ -3,7 +3,7 @@
         <div class="cross">✝</div>
         <div class="hero-content">
             <p class="section-label">Paróquia Sant'Ana de Sousas · Campinas</p>
-            <h1 class="hero-title">Retiro de<br><span>Aventura e Vida</span></h1>
+            <h1 class="hero-title">R.A.V.</h1>
             <p class="hero-sub">Um retiro espiritual para jovens organizado pela Comunidade Luz da Essência. Uma
                 experiência que transforma e fica para sempre.</p>
             <div class="hero-btns">

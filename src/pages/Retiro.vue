@@ -2,7 +2,6 @@
     <section class="page-hero">
         <div class="cross">✝</div>
         <div class="content">
-            <p class="section-label">Retiro de Aventura e Vida</p>
             <h1 class="section-title">RAV <span>{{ edition?.num }}</span></h1>
             <p class="sub" v-if="edition?.name">{{ edition.name }} · {{ edition?.date }}</p>
             <p class="sub" v-else>{{ edition?.date }}</p>
